@@ -48,7 +48,7 @@ jobs:
 
       - name: Build
         run:
-          cargo make build
+          wasm-pack build --target web --out-name wasm --out-dir ./static
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
