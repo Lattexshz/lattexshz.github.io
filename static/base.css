@@ -1,0 +1,44 @@
+body,
+ul {
+  margin: 0;
+}
+
+header  {
+  background-color: #383838;
+}
+
+.logo  {
+  width: 100px;
+}
+.logo img {
+  height: auto;
+  width: 100%;
+}
+
+.inner  {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  max-width: 500px;
+  padding: 10px 0;
+}
+
+ul  {
+  display: flex;
+  list-style: none;
+}
+
+
+li a  {
+  color: #fff;
+  display: block;
+  font-size: 46px;
+  font-family: Yu Gothic;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+li a : hover {
+    color: 9A9A9A;
+}
